@@ -1,6 +1,6 @@
 # image-byte-slice-gen
 
-A Go-based command-line tool to convert images into Go byte slice files
+A Go-based command-line tool to convert images into [Go](https://go.dev/) byte slice files.
 
 ## Usage
 
