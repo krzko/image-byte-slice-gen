@@ -51,6 +51,8 @@ func ProcessImage(inputPath string) error {
 
 func SetupApp() *cli.App {
 	return &cli.App{
+		Name:  "image-byte-slice-gen",
+		Usage: "Converts image files to Go byte slices",
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:     "file",
